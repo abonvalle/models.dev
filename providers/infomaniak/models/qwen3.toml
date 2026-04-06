@@ -1,0 +1,22 @@
+name = "Qwen/Qwen3-VL-235B-A22B-Instruct"
+family = "qwen"
+release_date = "2025-10-08"
+last_updated = "2026-04-05"
+attachment = false
+reasoning = true
+temperature = true
+tool_call = true
+open_weights = true
+
+[cost]
+input = 0.70
+output = 2.00
+
+[limit]
+context = 262_144
+input = 262_144
+output = 16_384
+
+[modalities]
+input = ["text"]
+output = ["text"]
